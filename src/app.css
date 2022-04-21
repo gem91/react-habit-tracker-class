@@ -1,0 +1,26 @@
+
+
+button{outline: 0;border: 0; background-color: transparent;cursor: pointer;}
+
+.habits-wrap{overflow: hidden; margin: 50px auto 0; width: 450px;  border: 1px solid #f0d8d0; border-radius: 15px; }
+
+nav{display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: blanchedalmond;}
+nav .logo{ color: green; font-size: 2.2rem;}
+nav .nav-title{font-size: 2.2rem;}
+nav .nav-count{display: block; width: 2.5rem; height: 2.5rem; text-align: center; color: #fff; font-size: 1.8rem; border-radius: 50%; background-color: green;}
+
+.add-form{padding: 0 20px;}
+.add-text{padding:14px 10px; width: 80%; vertical-align: top; box-sizing: border-box;}
+.add-button{width: calc(100% - 80%); padding: 10px 0; font-size: 1.5rem; color: #fff; text-align: center;vertical-align: top; background-color: green;}
+.habits-wrap ul{margin: 0; padding: 0;}
+.habits-wrap li.habit{display: flex; justify-content: space-between; padding: 5px 15px; font-size: 2.5rem; list-style-type: none}
+.habits-wrap li.habit .habit-name{margin-right: 10px;}
+.habits-wrap li.habit .habit-count{display: inline-flex; justify-content: center; align-items: center; margin-right: 10px; width: 2.5rem; height: 2.5rem; font-size: 2.1rem; color: #fff; text-align: center; border-radius: 50%; background-color: darkseagreen;}
+.habit-button{font-size: 2.5rem;}
+.habit-button:hover{opacity: .8;;}
+.habit-increase{color: yellowgreen;}
+.habit-decrease{color: yellow;}
+.habit-delete{color: brown;font-size: 2.2rem;}
+
+.reset-button{ margin-top: 25px; padding: 10px 0; width: 100%; font-size: 1.5rem; color: #fff; background-color: green;}
+
